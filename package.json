@@ -1,0 +1,38 @@
+{
+  "name": "@li0ard/icaopkd",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "version": "0.1.0",
+  "type": "module",
+  "author": "li0ard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/li0ard/icaopkd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/li0ard/icaopkd/issues"
+  },
+  "homepage": "https://github.com/li0ard/icaopkd#readme",
+  "description": "Helper for ICAO PKD master lists",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist/ && tsc --project tsconfig.build.json",
+    "docs": "typedoc --options .config/typedoc/config.cjs"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typedoc": "^0.28.15"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@peculiar/asn1-cms": "^2.6.0",
+    "@peculiar/asn1-schema": "^2.6.0"
+  },
+  "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": ["emrtd", "mrtd", "icao", "tsemrtd", "9303", "passport", "pkd", "ldif"]
+}
