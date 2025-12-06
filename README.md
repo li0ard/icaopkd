@@ -4,7 +4,6 @@
     <br>
     <a href="https://li0ard.is-cool.dev/icaopkd">docs</a>
     <br><br>
-    <a href="https://github.com/li0ard/icaopkd/actions/workflows/test.yml"><img src="https://github.com/li0ard/icaopkd/actions/workflows/test.yml/badge.svg" /></a>
     <a href="https://github.com/li0ard/icaopkd/blob/main/LICENSE"><img src="https://img.shields.io/github/license/li0ard/icaopkd" /></a>
     <br>
     <a href="https://npmjs.com/package/@li0ard/icaopkd"><img src="https://img.shields.io/npm/v/@li0ard/icaopkd" /></a>
@@ -28,5 +27,3 @@ bunx jsr i @li0ard/icaopkd
 - Most of the APIs are strictly typed
 - Fully complies with [ICAO 9303](https://www.icao.int/publications/pages/publication.aspx?docnum=9303) standard
 - Supports Bun, Node.js, Deno, Browsers
-
-## Examples
